@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Huzaifa Tehseen - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background: #001F3F;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav-logo img {
+            width: 100px;
+        }
+
+        .nav-name h1, .nav-name h3 {
+            margin: 0;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            overflow: hidden; /* Clearfix alternative */
+        }
+
+        .profile {
+            width: 40%;
+            float: left;
+            text-align: center;
+        }
+
+        .content {
+            width: 60%;
+            float: left;
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .profile p {
+            font-size: 18px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .profile a {
+            color: #001F3F;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .content h2 {
+            color: #001F3F;
+            margin-top: 20px;
+        }
+
+        .content ul, .content p {
+            color: #333;
+        }
+
+        .content ul li a {
+            color: #001F3F;
+            text-decoration: none;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Fix */
+        @media (max-width: 768px) {
+            .profile, .content {
+                width: 100%;
+                float: none;
+                padding: 0;
+            }
+
+            .content {
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="nav-name">
+                <h1>Huzaifa Tehseen</h1>
+                <h3>(Software Engineer)</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main">
+        <!-- Profile Side -->
+        <div class="profile">
+            <img src="photo.png" alt="Your Photo">
+            <p>Software Engineer | Video Editor | Web Developer</p>
+            <a href="https://www.linkedin.com/in/huzaifa-tehseen-967a02347/" target="_blank">LinkedIn Profile</a>
+        </div>
+
+        <!-- Content Side -->
+        <div class="content">
+            <h2 id="skills">Skills</h2>
+            <ul>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Video Editing</li>
+                <li>Graphic Design</li>
+                <li>Game Development</li>
+                <li>Mobile Application Development</li>
+            </ul>
+
+            <h2 id="experience">Past Experience</h2>
+            <p>As I am a student so I don't have Work Experience so far</p>
+
+            <h2 id="projects">Projects</h2>
+            <ul>
+                <li><a href="#">Cafe Management System(C++,OOP in C++)</a></li>
+                <li><a href="#">Phone Book Management System (DSA)</a></li>
+                <li><a href="#">Event Management System(Data-Base)</a></li>
+                <li><a href="#">Hospital Management System(Computer Network)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Huzaifa Tehseen. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
